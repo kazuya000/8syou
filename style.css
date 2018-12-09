@@ -70,12 +70,14 @@ main{
 }
 
 main{
-  width: 50%;
+  width: 100%;
   height: auto;
   margin: 40px auto;
+  max-width: 40%
 }
 .text {
-  width: auto;
+  width: 100%;
+  font-size: 1.75vw;
 }
 
 .step-box{
@@ -84,7 +86,9 @@ main{
   padding: 5px;
   position: relative;
   border: 1px solid #acabab;
-  margin: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 0%;
 }
 
 .step-num{
